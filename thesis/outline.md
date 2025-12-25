@@ -9,15 +9,13 @@
 
 ## Documentation Structure
 
-As you work, capture your progress using these templates:
+Keep a daily log as you work:
 
-| Type | Location | When to Use |
-|------|----------|-------------|
-| **Decision Records** | `decisions/` | Significant technical or business choices |
-| **Change Log** | `changelog/` | After completing improvements |
-| **Weekly Reflections** | `reflections/` | End of work sessions |
+| Location | Format | Content |
+|----------|--------|---------|
+| `log/` | `YYYY-MM-DD.md` | Done, Decisions, Notes |
 
-Templates are in each folder (`000-template.md`).
+Compile into formal sections (ADRs, changelog, etc.) at end of project.
 
 ## Potential Thesis Angles
 

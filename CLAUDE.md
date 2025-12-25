@@ -56,25 +56,21 @@ This project uses ClickUp for all task management via MCP server.
 <thesis-documentation>
 This project doubles as a thesis (Software Engineering + Business/Operations). Proactively remind the user to document their work.
 
-**Decision Records** (`thesis/decisions/`):
-- When the user makes a significant technical or business choice
-- Prompt: "This seems like a significant decision. Should we create an ADR for [topic]?"
-- Use template: `thesis/decisions/000-template.md`
+**Daily Log** (`thesis/log/`):
+- One file per day: `YYYY-MM-DD.md`
+- Sections: Done, Decisions, Notes
 
-**Change Log** (`thesis/changelog/`):
-- After completing an improvement or fixing an issue
-- Prompt: "Should we log this change for your thesis? I can help capture the before/after."
-- Use template: `thesis/changelog/000-template.md`
+**Proactive Reminders** - Prompt to update the log:
+- Before pushing changes to git
+- After completing significant tasks
+- When making important decisions
+- At end of work sessions
 
-**Weekly Reflections** (`thesis/reflections/`):
-- At the end of longer work sessions or when wrapping up
-- Prompt: "Want to capture a weekly reflection? It'll help with your thesis later."
-- Use template: `thesis/reflections/000-template.md`
-
-**General Guidelines**:
-- Always consider both technical AND business impact (hybrid thesis)
-- Capture metrics whenever possible (before/after comparisons)
-- Link documentation to ClickUp tasks for traceability
+**Guidelines**:
+- Document everything - decisions, reasoning, outcomes, learnings
+- Capture both technical and business observations
+- Link to ClickUp tasks when relevant
+- Can compile/organize into formal sections later
 </thesis-documentation>
 
 ## Project Overview
@@ -120,9 +116,7 @@ This is a **context and documentation repository** for a production healthcare c
 └── thesis/                # Academic documentation
     ├── outline.md         # Thesis structure
     ├── research/          # Supporting research
-    ├── decisions/         # Architecture Decision Records (ADRs)
-    ├── changelog/         # Before/after improvement logs
-    └── reflections/       # Weekly summaries
+    └── log/               # Daily work log (YYYY-MM-DD.md)
 ```
 </structure>
 
