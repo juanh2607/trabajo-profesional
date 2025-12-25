@@ -25,10 +25,62 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Proactively check for redundancies and inconsistencies across files
 </working-style>
 
+## Task Management
+
+<clickup>
+This project uses ClickUp for all task management via MCP server.
+
+**Proactive Usage**:
+- Use ClickUp MCP tools for tracking tasks, progress, and planning
+- Check ClickUp for existing tasks before starting work
+- Reference task IDs when working on specific items
+
+**Before Creating/Updating Tasks**:
+- ALWAYS ask user for confirmation before creating new tasks
+- ALWAYS ask user for confirmation before updating existing tasks
+- Gather context of current tasks to avoid duplicates
+
+**Organization**:
+- Create sub-tasks under parent tasks for better hierarchy
+- Use descriptive task names that reflect the work
+- Keep tasks in appropriate lists/folders
+- Use markdown descriptions for rich formatting (headers, lists, code blocks)
+
+**Workspace Structure**:
+- Space: "Trabajo Profesional"
+- Use search to find existing related tasks before creating new ones
+</clickup>
+
+## Thesis Documentation
+
+<thesis-documentation>
+This project doubles as a thesis (Software Engineering + Business/Operations). Proactively remind the user to document their work.
+
+**Decision Records** (`thesis/decisions/`):
+- When the user makes a significant technical or business choice
+- Prompt: "This seems like a significant decision. Should we create an ADR for [topic]?"
+- Use template: `thesis/decisions/000-template.md`
+
+**Change Log** (`thesis/changelog/`):
+- After completing an improvement or fixing an issue
+- Prompt: "Should we log this change for your thesis? I can help capture the before/after."
+- Use template: `thesis/changelog/000-template.md`
+
+**Weekly Reflections** (`thesis/reflections/`):
+- At the end of longer work sessions or when wrapping up
+- Prompt: "Want to capture a weekly reflection? It'll help with your thesis later."
+- Use template: `thesis/reflections/000-template.md`
+
+**General Guidelines**:
+- Always consider both technical AND business impact (hybrid thesis)
+- Capture metrics whenever possible (before/after comparisons)
+- Link documentation to ClickUp tasks for traceability
+</thesis-documentation>
+
 ## Project Overview
 
 <description>
-This is a **planning and documentation repository** for a production healthcare call center agent. The actual n8n workflows run on a separate server - this repo serves as the central hub for improvement planning and thesis documentation.
+This is a **context and documentation repository** for a production healthcare call center agent. The actual n8n workflows run on a separate server. Task management and planning lives in ClickUp - this repo holds technical specs, documentation, and thesis work.
 </description>
 
 <production-system>
@@ -53,31 +105,39 @@ This is a **planning and documentation repository** for a production healthcare 
 
 <structure>
 ```
-/Call-Center Agent/
+/
 ├── CLAUDE.md              # This file - project context
-├── current-state/         # Documentation of existing system
-│   └── architecture.md    # Current tech stack and data flow
-├── plans/                 # Improvement plans by category
-│   ├── analytics/         # Metrics and monitoring plans
-│   ├── scaling/           # Performance and capacity plans
-│   └── features/          # New feature proposals
+├── agent/                 # Call center agent documentation
+│   ├── documentation/     # Main agent docs, diagrams, PDFs
+│   ├── files/             # Training transcripts, playbook, business domain
+│   ├── prompts/           # All agent prompts (orchestrator, experts, etc.)
+│   └── WIP/               # Work in progress items
+├── architecture/          # System documentation
+│   └── current-state.md   # Current tech stack and data flow
+├── specs/                 # Technical specifications
+│   ├── analytics/         # Database schemas, metrics definitions
+│   └── prompts/           # Analytics-related prompts
 └── thesis/                # Academic documentation
     ├── outline.md         # Thesis structure
-    └── research/          # Supporting research
+    ├── research/          # Supporting research
+    ├── decisions/         # Architecture Decision Records (ADRs)
+    ├── changelog/         # Before/after improvement logs
+    └── reflections/       # Weekly summaries
 ```
 </structure>
 
 ## Working in This Repository
 
 <repo-contains>
-- Planning documents and improvement proposals
-- Architecture documentation
+- Agent prompts and documentation (how the call center agent works)
+- Architecture and system documentation
+- Technical specifications (schemas, prompts)
 - Thesis drafts and research notes
-- Feature specifications
 </repo-contains>
 
 <repo-does-not-contain>
-- n8n workflow JSON files (those live on the n8n server)
+- Task management or planning (lives in ClickUp)
+- n8n workflow JSON files (live on the n8n server)
 - Application code
 - Credentials or API keys
 </repo-does-not-contain>
@@ -88,34 +148,3 @@ This is a **planning and documentation repository** for a production healthcare 
 - Slack is used for human escalation and client notifications
 - All improvements should consider both technical and business impact (thesis focus)
 </context>
-
-## Active Plans
-
-<analytics-system status="in-progress">
-
-Building a comprehensive metrics and analytics system.
-
-**Tech Stack**:
-- Supabase (PostgreSQL) for data storage
-- Next.js dashboard for visualization
-- GPT-5 for daily AI-generated reports
-
-**Metrics Being Tracked**:
-- Conversation length, response time, appointments, hand-offs, cost, errors
-- First response time, resolution rate, sentiment, channel performance
-- Peak hours, cost per resolution, token efficiency, repeat contacts
-
-**Key Files**:
-- `plans/analytics/metrics-spec.md` - Detailed metric definitions
-- `plans/analytics/database-schema.sql` - Supabase schema
-- `plans/analytics/n8n-modifications.md` - Workflow changes needed
-- `plans/analytics/daily-report-prompt.md` - AI report generation
-
-**Implementation Phases**:
-1. Database Setup (Supabase)
-2. n8n Modifications (data capture)
-3. GoHighLevel Integration (appointments)
-4. Daily AI Reports
-5. Next.js Dashboard
-
-</analytics-system>

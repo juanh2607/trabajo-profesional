@@ -1,0 +1,1 @@
+Use this tool for appointment scheduling, calendar management, booking coordination, time zone handling, and appointment-related logistics.

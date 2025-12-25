@@ -1,0 +1,257 @@
+class,category,product,labs_needed,ordered_by,md_call_needed,uses,side_effects,contraindication
+Peptide,Fat Loss,5-Amino-1MQ Pill,CMP/CRP/Sed Rate,Ace,N,"Primary Use: Fat loss, insulin sensitivity, and muscle preservation
+
+Mechanism: Inhibits NNMT → increases NAD⁺ → enhances metabolism, mitochondrial function, and AMPK activity
+
+Clinical Target: Obesity, metabolic syndrome, sarcopenia",Headache · mild jitteriness · queasy stomach,Uncontrolled high BP · Severe anxiety / bipolar disorder · Advanced liver or kidney disease · You already take an MAOI antidepressant
+Peptide,Fat Loss,AOD Troche,N/A,Ace,N,"Primary Use: Fat burning (lipolysis) without affecting blood sugar or GH levels
+
+Mechanism: Fragment of hGH (176–191) → targets adipose tissue to promote lipolysis
+
+Clinical Target: Obesity, localized fat reduction",Headache · light dizziness · mild belly upset,"Any active cancer · Uncontrolled diabetes · Serious heart failure
+"
+Peptide,Healing,BPC Injection (compounded),N/A,Ace,N,"Primary Use: Tissue regeneration, gut repair, injury recovery
+
+Mechanism: Stimulates angiogenesis via VEGF modulation. Enhances fibroblast migration and collagen production. Modulates nitric oxide, dopamine, and serotonin for tissue protection
+
+Clinical Target: Tendon and ligament injuries. Leaky gut, ulcers, inflammatory bowel disease (IBD). Muscle, nerve, and joint healing. Post-surgical recovery",Sore or red spot if injected · mild nausea · tiredness,"Active or recent cancer · Bleeding/clotting disorder
+"
+Peptide,Healing,BPC Pill,N/A,Ace,N,"Primary Use: Tissue regeneration, gut repair, injury recovery
+
+Mechanism: Stimulates angiogenesis via VEGF modulation. Enhances fibroblast migration and collagen production. Modulates nitric oxide, dopamine, and serotonin for tissue protection
+
+Clinical Target: Tendon and ligament injuries. Leaky gut, ulcers, inflammatory bowel disease (IBD). Muscle, nerve, and joint healing. Post-surgical recovery",Sore or red spot if injected · mild nausea · tiredness,"Active or recent cancer · Bleeding/clotting disorder
+
+Autoimmune flare that’s already raging"
+Peptide,Healing/Systemic Inflammation/Autoimmune,BPC/KPV Pill,N/A,Ace,N,"Primary Use: Gut inflammation control, immune modulation
+
+Mechanism: BPC-157: Promotes angiogenesis and epithelial repair. KPV: Suppresses pro-inflammatory cytokines (TNF-α, IL-6) by binding melanocortin-1 receptor (MC1R) and inhibiting NF-κB signaling
+
+Clinical Target: Ulcerative colitis, Crohn’s disease, IBS. Systemic inflammation with gut involvement. Leaky gut with immune activation. Inflammatory skin and mucosal conditions (via systemic immune modulation)
+",Sore or red spot if injected · mild nausea · tiredness  · occasional facial flushing,"Active or recent cancer · Bleeding/clotting disorder
+
+Autoimmune flare that’s already raging"
+Peptide,Growth Hormone,CJC/IPA Injection (compounded),IGF/Prolactin,Ace,N,"Primary Use: Growth hormone stimulation, anti-aging, recovery, fat loss
+
+Mechanism: CJC-1295 (GHRH analog) + Ipamorelin (Ghrelin mimetic) → increase GH/IGF-1
+
+Clinical Target: GH deficiency, aging, sleep, body composition","Water retention → puffy fingers, tingling, wrist ache · bigger appetite · warm flushing","Active malignancy · Proliferative diabetic eye disease · Known pituitary tumour · Untreated severe sleep apnoea
+"
+Peptide,Cognitive,Dihexa Pill,N/A,Ace,N,"Primary Use: Cognitive enhancement, neurogenesis, Alzheimer's support
+
+Mechanism: Angiotensin IV derivative → promotes synaptogenesis and BDNF potentiation
+
+Clinical Target: Cognitive decline, TBI, neurodegeneration, learning/memory support",Headache · vivid dreams · water retension,"Active cancer · Recurrent fainting or very low blood-pressure episodes
+"
+Peptide,Skin,GHK-Cu Injection,N/A,Ace,N,"Primary Use: Systemic tissue repair, wound healing, inflammation control
+
+Mechanism: Regulates gene expression for tissue regeneration and anti-inflammation
+
+Clinical Target: Healing, anti-aging, fibrosis, organ protection",Coppery/metal taste right after the shot · itchy or red skin at site · brief light-headed feeling,Active/suspected cancer or copper/metal metabolism disorders (Wilson's disease) and allergies to metals. 
+Medication,Autoimmune,LDN,N/A,Ace/Heather,Y,"Primary Use: Immune modulation, inflammation control, chronic pain management
+
+Mechanism: At low doses (typically 0.5–4.5 mg), naltrexone temporarily blocks opioid receptors → rebound increase in endogenous endorphins (met-enkephalin, β-endorphin). Modulates immune response by inhibiting TLR4 (Toll-like receptor 4) on microglia and immune cells → reduces pro-inflammatory cytokines (e.g., TNF-α, IL-6, IL-1β)
+
+Clinical Target: Autoimmune diseases: Hashimoto’s thyroiditis, rheumatoid arthritis, lupus, multiple sclerosis (MS), psoriasis, Crohn’s disease. Chronic pain syndromes: Fibromyalgia, complex regional pain syndrome (CRPS), neuropathic pain. Neuroinflammation: ME/CFS, long COVID, depression with inflammatory component
+
+Cancer support: Adjunct therapy (via immune enhancement and modulation of tumor microenvironment)",Vivid dreams · trouble falling asleep (first week) · mild stomach cramp,"Narcotics/Alcohol use (LDN blocks opioid receptors). Need one full week off prior to prescribing LDN
+
+Acute hepatitis or decompensated liver disease
+"
+Peptide,Mitochondria/Cognitive,Methylene Blue Pill,N/A,Ace,N,"Primary Use: Mitochondrial function, cognitive enhancement, anti-aging
+
+Mechanism: Acts as an electron donor in mitochondrial complex IV, improves ATP production
+
+Clinical Target: Cognitive decline, neurodegeneration, chronic fatigue, Long COVID",Blue-green pee & tongue · nausea · headache,"G-6-PD deficiency · You take an SSRI/SNRI (serotonin-syndrome risk) · Severe kidney disease
+"
+Peptide,Mitochondria/Fat Loss,MOTS-c (CB4211),N/A,Ace,N,"Primary Use: Metabolic regulation, mitochondrial function, weight loss
+
+Mechanism: Mitochondrial-derived peptide → activates AMPK, improves insulin sensitivity
+
+Clinical Target: Obesity, insulin resistance, age-related metabolic decline",Red or sore injection spot · mild nausea · fatigue,"Active cancer · Unstable heart rhythm · End-stage kidney disease
+"
+Peptide,Mitochondria/Energy,NAD Injection (compounded),N/A,Ace,N,"Primary Use: Energy, DNA repair, anti-aging, neurological health
+
+Mechanism: Restores NAD⁺ levels → activates sirtuins, PARPs, and mitochondrial function
+
+Clinical Target: Fatigue, neurodegeneration, addiction, aging",Flushing or warm rush if pushed fast · tight chest or throat · headache,"Severely low blood-pressure states · Known NAD allergy · Recurrent phlebitis
+"
+Peptide,Cognitive,Nicotene Troches,N/A,Ace,N,"Primary Use: Cognitive enhancement, memory, neuroprotection
+
+Mechanism: Nicotinic receptor agonist → enhances cholinergic signaling
+
+Clinical Target: Alzheimer's support, ADHD, focus, cognitive fatigue",Mouth or throat burn · hiccups · nausea,"Recent heart attack or stroke · Uncontrolled HTN · Serious arrhythmia
+"
+Peptide,Libido,PT-141 Injection,N/A,Ace,N,"Primary Use: Sexual arousal and libido enhancement
+
+Mechanism: Melanocortin-4 receptor agonist → CNS-mediated libido modulation
+
+Clinical Target: Erectile dysfunction, hypoactive sexual desire disorder (HSDD)",Nausea · warm facial flushing · headache · darkened gums/skin patches,"Uncontrolled high BP · Significant heart disease · Personal / family history of melanoma
+"
+Peptide,Libido,PT-141 Nasal,N/A,Ace,N,"Primary Use: Sexual arousal and libido enhancement
+
+Mechanism: Melanocortin-4 receptor agonist → CNS-mediated libido modulation
+
+Clinical Target: Erectile dysfunction, hypoactive sexual desire disorder (HSDD)",Stuffy nose · same (usually milder) systemic effects,"Uncontrolled high BP · Significant heart disease · Personal / family history of melanoma
+"
+GLP1,Fat Loss,Retatrutide,Amylase/Lipase,Ace,Y,,Nausea · diarrhea or constipation · dizziness when standing,"Personal/family medullary thyroid cancer or MEN-2 · Past pancreatitis · Severe gastroparesis · Symptomatic gall-stones · breastfeeding
+"
+Peptide,Cognitive,Selank Nasal Spray,N/A,Ace,N,"Primary Use: Anxiolytic, cognitive enhancement, mood stabilization
+
+Mechanism: Synthetic tuftsin analog → modulates GABA and serotonin systems
+
+Clinical Target: Anxiety, depression, ADHD, stress","Mild calming or, rarely, pep · slight nose burn · headache","Acute psychosis or mania · Active, severe sinus infection
+"
+GLP1,Fat Loss,Semaglutide,N/A,Ace,Y,,Nausea · constipation or diarrhea · belly pain,"MTC or MEN-2 · Pancreatitis history · Severe diabetic eye disease needing treatment · Severe gastroparesis · breastfeeding
+"
+Peptide,Cognitive,Semax Nasal Spray,N/A,Ace,N,"Primary Use: Neuroprotection, cognitive support, stress modulation
+
+Mechanism: ACTH fragment analog → boosts BDNF, regulates neurotransmission
+
+Clinical Target: Stroke recovery, anxiety, cognition, neuroinflammation",Bitter drip · nose irritation · mild headache,"Uncontrolled hypertension · Active nasal/sinus infection
+"
+Peptide,Growth Hormone,Sermorelin Injection (powdered),IGF/Prolactin,Ace,N,"Primary Use: Stimulates natural GH release, anti-aging, body composition
+
+Mechanism: GHRH analog → stimulates pituitary to release GH
+
+Clinical Target: GH deficiency, fatigue, recovery, muscle mass","Water retention (swelling, numbness) · warm flushing · headache","Active cancer · Pituitary tumour · Proliferative diabetic retinopathy
+"
+Peptide,Fat Loss/Mitochondria,SLU-PP-332,N/A,Ace,N,"Primary Use: Metabolic enhancement, longevity, insulin sensitization
+
+Mechanism: Direct AMPK agonist → mimics exercise effects and improves glucose uptake
+
+Clinical Target: Obesity, metabolic syndrome, aging, mitochondrial disorders
+
+Note: If not pairing with a GLP1, patients will notice inches lost vs lbs lost. Great for body recomposition, building more musles & lose fat. This is why it's great to pair with a GLP1 to maximize results",Restlessness · faster heart rate (in mice),"Serious liver disease · Clinically significant arrhythmia (human safety unknown)
+"
+Peptide,Healing,TB500 Injection (powdered),N/A,Ace,N,"Primary Use: Tissue regeneration, soft tissue healing
+
+Mechanism: Promotes cell migration, angiogenesis, and actin polymerization → enhances wound healing and reduces fibrosis
+
+Clinical Target: Chronic injuries, post-surgical recovery, inflammation","Fatigue · mild chills · light dizziness
+
+","Active malignancy · Major bleeding disorder or you’re on full-dose anticoagulants
+"
+Peptide,Growth Hormone/Fat Loss,Tesamorelin Injection,IGF/Prolactin,Ace,N (unless paired with GLP1),"Primary Use: Reduce visceral adiposity and enhance GH output
+
+Mechanism: GHRH analog → increases endogenous GH and reduces visceral fat
+
+Clinical Target: HIV-related lipodystrophy, abdominal obesity, aging-related fat gain","Water retention (swelling, joint ache, carpal tunnel) · injection-site itch","Active cancer · Pituitary tumour · Proliferative retinopathy · Uncontrolled diabetes
+"
+Medication,Fat Loss,Tesofensine Pill,CBC/CMP,Ace,Y,"Primary Use: Appetite suppression and fat loss
+
+Mechanism: Triple monoamine reuptake inhibitor (serotonin, dopamine, norepinephrine) → increases energy and suppresses hunger
+
+Clinical Target: Obesity, weight management, potentially ADHD",Dry mouth · trouble sleeping · faster pulse,"Uncontrolled hypertension · Serious heart disease / arrhythmia · Severe anxiety or psychosis
+- SSRIs (Excluding Wellbutrin)"
+Peptide,Autoimmune,Thymosin Alpha-1 Injection,N/A,Ace,N,"Primary Use: Immune system modulation and antiviral defense
+
+Mechanism: Enhances T-cell function, promotes immune homeostasis
+
+Clinical Target: Chronic viral infections, immune deficiency, cancer adjunct, inflammation",Low-grade fever · tiredness · sore/red spot,"Generally none absolute; most clinics still pause during active cancer unless oncologist approves
+"
+Peptide,Autoimmune,Thymosin Alpha-1 Nasal Spray,N/A,Ace,N,"Primary Use: Immune system modulation and antiviral defense
+
+Mechanism: Enhances T-cell function, promotes immune homeostasis
+
+Clinical Target: Chronic viral infections, immune deficiency, cancer adjunct, inflammation",Runny or burning nose,"Autoimmune disease (controversial; may modulate T-cell response)
+
+Organ transplant recipients (immune activation risk)
+
+Pregnancy or breastfeeding"
+GLP1,Fat Loss,Tirzepatide,N/A,Ace,Y,,Nausea · diarrhea/constipation · injection bump · shedding hair during rapid weight-loss,"MTC or MEN-2 · Prior pancreatitis · Severe gut-motility disorder · Symptomatic gall-stones · breastfeeding
+
+"
+Medication,Hormone Therapy,Male BHRT Injection,CBC/CMP/Lipid/Testosterone total/Free testosterone/Estradiol/PSA/TSH/T3/T4/Reverse T3,Heather,Y,"Primary Use: Restore physiological testosterone levels, improve vitality, libido, muscle mass, and cognitive function
+
+Mechanism: Supplementation with bioidentical testosterone (usually cypionate, enanthate, or transdermal). Binds androgen receptors → regulates gene transcription related to anabolic, sexual, and cognitive functions. May include adjuncts (e.g., HCG or anastrozole) to maintain fertility and control estrogen conversion
+
+Clinical Target: Hypogonadism (primary or secondary). Andropause (age-related testosterone decline). Low libido, erectile dysfunction. Sarcopenia, insulin resistance, cognitive decline, low mood""",Sore butt/leg after the shot · oily skin or new acne · thicker facial/body hair (or faster scalp thinning) · feeling “amped-up” or more irritable · bigger appetite and a bit of water retention → puffy ankles or rings feel tight · higher sex-drive · smaller testes / lower sperm count over time,"Prostate or male breast cancer · PSA in diagnostic gray-zone until cleared · Hematocrit > 54 % · Untreated severe sleep apnoea · Uncontrolled heart failure · Severe polycythaemia · Desire to maintain fertility (unless using HCG/FSH) - Blood thinner (automatic denial), under the age of 25
+
+- Testing contraindication: no oral & intercourse 2 days prior to getting blood drawn, could possibly elevate PSA levels"
+Medication,Hormone Therapy,Male BHRT Cream,CBC/CMP/Lipid/Testosterone total/Free testosterone/Estradiol/PSA/TSH/T3/T4/Reverse T3,Heather,Y,"Primary Use: Restore physiological testosterone levels, improve vitality, libido, muscle mass, and cognitive function
+
+Mechanism: Supplementation with bioidentical testosterone (usually cypionate, enanthate, or transdermal). Binds androgen receptors → regulates gene transcription related to anabolic, sexual, and cognitive functions. May include adjuncts (e.g., HCG or anastrozole) to maintain fertility and control estrogen conversion
+
+Clinical Target: Hypogonadism (primary or secondary). Andropause (age-related testosterone decline). Low libido, erectile dysfunction. Sarcopenia, insulin resistance, cognitive decline, low mood""","Same body-wide effects as above, but peaks are smoother; add: skin irritation or rash where you rub it · risk of rubbing off on a partner, kids, or pets","Prostate or male breast cancer · PSA in diagnostic gray-zone until cleared · Hematocrit > 54 % · Untreated severe sleep apnoea · Uncontrolled heart failure · Severe polycythaemia · Desire to maintain fertility (unless using HCG/FSH) - Blood thinner (automatic denial), under the age of 25
+
+- Testing contraindication: no oral & intercourse 2 days prior to getting blood drawn, could possibly elevate PSA levels"
+Medication,Hormone Therapy,Female BHRT Injection,CBC/CMP/Lipid/Testosterone/Estradiol/FSH/TSH/T3/T4/Reverse T3,Heather,Y,"Primary Use: Hormonal balance during perimenopause, menopause, or surgical menopause; alleviates symptoms and supports longevity
+
+Mechanism: Supplementation with bioidentical estradiol, progesterone, and sometimes testosterone. Binds to estrogen/progesterone receptors → modulates transcription for vascular, neurological, bone, and reproductive health. Often delivered as transdermal estradiol + oral or transvaginal progesterone (to protect endometrium)
+
+Clinical Target: Menopausal symptoms (hot flashes, night sweats, mood instability). Osteopenia/osteoporosis. Vaginal dryness, sexual dysfunction. Sleep disorders, cognitive fog. HPA axis dysregulation and mood disorders",Breast tenderness/swelling · bloating or “puffy” hands/feet (water retention) · mild nausea · mood swings or crying spells · spotting between periods (first 1–3 mo) · headache · sore injection site,"Breast cancer or estrogen-dependent tumour · History of DVT/PE, stroke, or MI · Active liver disease · Undiagnosed vaginal bleeding · Porphyria cutanea tarda - Blood thinner (automatic denial),  under the age of 25
+"
+Medication,Hormone Therapy,Female BHRT Cream,CBC/CMP/Lipid/Testosterone/Estradiol/FSH/TSH/T3/T4/Reverse T3,Heather,Y,"Primary Use: Hormonal balance during perimenopause, menopause, or surgical menopause; alleviates symptoms and supports longevity
+
+Mechanism: Supplementation with bioidentical estradiol, progesterone, and sometimes testosterone. Binds to estrogen/progesterone receptors → modulates transcription for vascular, neurological, bone, and reproductive health. Often delivered as transdermal estradiol + oral or transvaginal progesterone (to protect endometrium)
+
+Clinical Target: Menopausal symptoms (hot flashes, night sweats, mood instability). Osteopenia/osteoporosis. Vaginal dryness, sexual dysfunction. Sleep disorders, cognitive fog. HPA axis dysregulation and mood disorders",Same body-wide effects as the injection but gentler rise/fall, add: itchy or red skin where applied · transfer risk to partner/children
+Medication,Hormone Therapy,Female BHRT Troche,CBC/CMP/Lipid/Testosterone/Estradiol/FSH/TSH/T3/T4/Reverse T3,Heather,Y,"Primary Use: Hormonal balance during perimenopause, menopause, or surgical menopause; alleviates symptoms and supports longevity
+
+Mechanism: Supplementation with bioidentical estradiol, progesterone, and sometimes testosterone. Binds to estrogen/progesterone receptors → modulates transcription for vascular, neurological, bone, and reproductive health. Often delivered as transdermal estradiol + oral or transvaginal progesterone (to protect endometrium)
+
+Clinical Target: Menopausal symptoms (hot flashes, night sweats, mood instability). Osteopenia/osteoporosis. Vaginal dryness, sexual dysfunction. Sleep disorders, cognitive fog. HPA axis dysregulation and mood disorders",Breast tenderness and bloating · metallic or bitter taste for a minute · sore mouth spot if you always park it in the same place · hormone levels can bounce around from dose to dose,"Breast cancer or estrogen-dependent tumour · History of DVT/PE, stroke, or MI · Active liver disease · Undiagnosed vaginal bleeding · Porphyria cutanea tarda · severe oral mucosal disease or chronic dental issues that prevent absorption, under the age of 25"
+Medication,Fat Loss,Phentermine,N/A,Ace,Y,"Primary Use: for short-term weight loss in individuals with obesity (BMI ≥30) or overweight with comorbidities (BMI ≥27) 
+
+Mechanism: it works by stimulating norepinephrine, dopamine, and serotonin release in the hypothalamus, leading to appetite suppression and a reduction in food intake.","insomnia, dry mouth, increased heart rate, elevated blood pressure, restlessness, irritability, headache, and constipation.","Cardiovascular disease (e.g., arrhythmias, coronary artery disease), uncontrolled hypertension, hyperthyroidism, glaucoma, a history of drug or stimulant abuse, or those currently using monoamine oxidase inhibitors (MAOIs), SSRIs"
+Peptide,Growth Hormone,Pregnyl (HCG) Injectable,BHRT Labs,Ace,Y,"Primary Use: Stimulate natural testosterone production in males with secondary hypogonadism, support spermatogenesis in fertility protocols, and trigger ovulation in women undergoing fertility treatments; it mimics luteinizing hormone (LH) by binding LH receptors in the Leydig cells of the testes or ovarian theca cells, leading to increased testosterone or ovulation, depending on the context.
+
+Clinical Target: Prevention of testicular atrophy during testosterone replacement therapy (TRT). Maintaining fertility in men using anabolic steroids or androgens. Assisting in weight loss/hormonal regulation in certain obesity-related protocols (off-label)","Injection site pain or irritation
+
+Water retention / bloating
+
+Mood swings or irritability
+
+Gynecomastia (due to estrogen conversion)
+
+Headache or fatigue
+
+Increased acne or oily skin (androgenic effects)","Known or suspected hormone-sensitive cancers (e.g., prostate or breast cancer in men, estrogen-dependent tumors in women)
+
+Precocious puberty
+
+Undiagnosed uterine or genital bleeding
+
+Known hypersensitivity to HCG or its components
+
+Active thromboembolic disorders
+
+Pregnancy (for off-label uses)"
+Peptide,Healing,Wolverine Stack (BPC-157 + TB-500),N/A,Ace,N,"Primary Use: Accelerate soft tissue healing, reduce inflammation, enhance recovery from musculoskeletal injuries, and protect against chronic joint/tendon degeneration
+
+Mechanism:
+
+BPC-157: Derived from gastric juice; promotes angiogenesis, fibroblast migration, collagen synthesis, and nitric oxide–mediated blood flow to injured tissues
+
+TB-500 (Thymosin Beta-4): Increases cell migration, actin polymerization, and tissue regeneration while reducing inflammatory cytokines
+
+Synergistic action improves tendon, ligament, and muscle repair while enhancing overall recovery rate
+
+Clinical Target: Acute and chronic tendon, ligament, or muscle injuries; joint degeneration; post-surgical healing; repetitive strain injuries; sports injury recovery",Mild injection site irritation · transient fatigue · dizziness · mild headache,Active or recent cancer · Bleeding/clotting disorder · Uncontrolled infection
+Peptide,Anti-aging,"Glow (BPC-157, TB-500, GHK-Cu)",N/A,Ace,N,"Primary Use: Promote systemic healing and anti-aging effects with enhanced skin repair, hair growth, and tissue regeneration
+
+Mechanism:
+
+BPC-157 & TB-500: Tissue repair and anti-inflammatory actions as above
+
+GHK-Cu (Copper Peptide): Stimulates collagen and glycosaminoglycan synthesis in skin, supports hair follicle stem cells, improves skin elasticity, and promotes angiogenesis
+
+Combined systemic repair with cosmetic rejuvenation effects (skin, hair, nails)
+
+Clinical Target: Skin aging, hair thinning, wound healing, surgical recovery, scar reduction, joint/tendon injuries, and overall regenerative support",Mild injection site irritation · temporary skin redness · mild headache · transient metallic taste,Active or recent cancer · Bleeding/clotting disorder · Wilson’s disease (copper overload) · Uncontrolled infection
+Peptide,Anti-aging,"Klow (BPC-157/KPV, TB-500, GHK-Cu)",N/A,Ace,N,"Primary Use: Reduce systemic and gut inflammation, promote musculoskeletal and skin repair, and restore epithelial barrier function
+
+Mechanism:
+
+BPC-157: Enhances vascular supply, collagen repair, and tendon/gut healing
+
+KPV (α-MSH fragment): Potent anti-inflammatory peptide, suppresses NF-κB signaling, reduces pro-inflammatory cytokines in gut and systemic tissues
+
+TB-500: Improves cellular migration, tissue regeneration, and reduces fibrosis
+
+GHK-Cu: Supports collagen remodeling, skin regeneration, and angiogenesis
+
+Multi-pathway action for inflammation control, tissue regeneration, and aesthetic rejuvenation
+
+Clinical Target: Inflammatory bowel disease, leaky gut, systemic inflammatory syndromes, chronic musculoskeletal injury, post-surgical healing, skin/hair regeneration",Mild injection site irritation · loose stools · transient fatigue · mild headache,Active or recent cancer · Bleeding/clotting disorder · Wilson’s disease (copper overload) · Severe immunosuppression · Uncontrolled infection

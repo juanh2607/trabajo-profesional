@@ -4,6 +4,8 @@
 
 The call center agent handles incoming messages from multiple channels for a healthcare client, automatically responding and managing leads.
 
+> **Detailed Documentation**: For comprehensive agent documentation including conversation flows, prompt structures, and sequence diagrams, see [`/agent/documentation/`](../agent/documentation/).
+
 ## Components
 
 ### Message Channels (Inbound)
@@ -42,9 +44,3 @@ The call center agent handles incoming messages from multiple channels for a hea
         └──► [Slack] ──► Human Escalation
 ```
 
-## Current Metrics (To Be Documented)
-- [ ] Average messages per day
-- [ ] Response time
-- [ ] Resolution rate
-- [ ] Human escalation rate
-- [ ] Peak hours vs off-peak distribution

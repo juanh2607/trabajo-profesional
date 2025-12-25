@@ -7,6 +7,18 @@
 - Software Engineering
 - Business/Operations
 
+## Documentation Structure
+
+As you work, capture your progress using these templates:
+
+| Type | Location | When to Use |
+|------|----------|-------------|
+| **Decision Records** | `decisions/` | Significant technical or business choices |
+| **Change Log** | `changelog/` | After completing improvements |
+| **Weekly Reflections** | `reflections/` | End of work sessions |
+
+Templates are in each folder (`000-template.md`).
+
 ## Potential Thesis Angles
 
 ### Software Engineering Focus
